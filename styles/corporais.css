@@ -1,0 +1,172 @@
+/* ============================
+      PAGINA TRATAMENTOS
+============================ */
+.corporais-central-container {
+    width: 100%;
+    margin-top: 150px;
+    padding: 34px 5% 72px;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(to bottom, #faf8f5 0%, #ffffff 100%);
+}
+
+.corporais-central {
+    width: min(1200px, 100%);
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.corporais-central > h1 {
+    margin: 0 0 8px;
+    font-size: clamp(32px, 4vw, 46px);
+    line-height: 1.2;
+    background: linear-gradient(135deg, #d4af37 0%, #8b7355 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.corporais-tratamento {
+    display: grid;
+    grid-template-columns: minmax(280px, 40%) minmax(0, 1fr);
+    gap: 24px;
+    align-items: center;
+    background: #ffffff;
+    border: 1px solid rgba(212, 175, 55, 0.16);
+    border-radius: 20px;
+    box-shadow: 0 14px 40px rgba(0, 0, 0, 0.08);
+    padding: 16px;
+}
+
+.corporais-central .corporais-tratamento:nth-of-type(even) {
+    grid-template-columns: minmax(0, 1fr) minmax(280px, 40%);
+}
+
+.corporais-central .corporais-tratamento:nth-of-type(even) .corporais-img-tratamento {
+    order: 2;
+}
+
+.corporais-central .corporais-tratamento:nth-of-type(even) .corporais-info-tratamento {
+    order: 1;
+}
+
+.corporais-img-tratamento {
+    min-height: 220px;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+.corporais-img-tratamento img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.corporais-info-tratamento {
+    padding: 8px 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 0;
+}
+
+.corporais-numero-tratamento {
+    margin: 0;
+    font-size: 34px;
+    line-height: 1;
+    font-weight: 300;
+    color: #8b7355;
+}
+
+.corporais-info-tratamento h2 {
+    margin: 0;
+    font-size: clamp(24px, 2.3vw, 30px);
+    line-height: 1.2;
+    word-break: break-word;
+    background: linear-gradient(135deg, #363632 0%, #91887e 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.corporais-info-tratamento p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.65;
+    color: #5c4a3a;
+}
+
+.corporais-beneficios {
+    margin: 4px 0 0;
+    padding-left: 18px;
+    color: #5c4a3a;
+    display: grid;
+    gap: 6px;
+}
+
+.corporais-beneficios li {
+    line-height: 1.5;
+}
+
+@media (max-width: 1024px) {
+    .corporais-central-container {
+        margin-top: 136px;
+        padding-top: 24px;
+    }
+
+    .corporais-tratamento,
+    .corporais-central .corporais-tratamento:nth-of-type(even) {
+        grid-template-columns: 1fr;
+        gap: 14px;
+        padding: 12px;
+    }
+
+    .corporais-central .corporais-tratamento:nth-of-type(even) .corporais-img-tratamento,
+    .corporais-central .corporais-tratamento:nth-of-type(even) .corporais-info-tratamento {
+        order: initial;
+    }
+
+    .corporais-img-tratamento {
+        min-height: 260px;
+    }
+}
+
+@media (max-width: 768px) {
+    .corporais-central-container {
+        margin-top: 116px;
+        padding: 20px 4% 58px;
+    }
+
+    .corporais-central {
+        gap: 20px;
+    }
+
+    .corporais-central > h1 {
+        font-size: 34px;
+    }
+
+    .corporais-info-tratamento {
+        padding: 6px 6px 10px;
+    }
+
+    .corporais-info-tratamento h2 {
+        font-size: 22px;
+    }
+
+    .corporais-info-tratamento p,
+    .corporais-beneficios {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .corporais-img-tratamento {
+        min-height: 200px;
+    }
+
+    .corporais-central > h1 {
+        font-size: 30px;
+    }
+}

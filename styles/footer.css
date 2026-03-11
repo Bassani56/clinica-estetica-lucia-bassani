@@ -1,0 +1,164 @@
+
+/* ============================
+      FOOTER
+============================ */
+.faciais-footer {
+    /* background: linear-gradient(180deg, #50391b 0%, #0b2144 100%); */
+    background: linear-gradient(135deg, #2F261E 0%, #453526 100%);
+    color: #f1f5f9;
+    padding: 56px 5% 34px;
+}
+
+.faciais-center-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 0.9fr;
+    gap: 56px;
+    padding-bottom: 28px;
+    border-bottom: 1px solid rgba(146, 163, 187, 0.28);
+}
+
+.faciais-brand h2,
+.faciais-contact-col h2,
+.faciais-social-col h2 {
+    margin: 0 0 14px;
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.faciais-brand p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #cdd7e4;
+}
+
+.faciais-contact-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 14px;
+}
+
+.faciais-contact-list li {
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    gap: 10px;
+    align-items: start;
+    color: #d7e1ee;
+    font-size: 15px;
+    line-height: 1.45;
+}
+
+.faciais-contact-icon {
+    color: #d8b15b;
+    font-weight: 700;
+}
+
+.faciais-social-list {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.faciais-social-list a {
+    width: 34px;
+    height: 34px;
+    border-radius: 999px;
+    background: rgba(148, 163, 184, 0.2);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.25s ease;
+}
+
+.faciais-social-list a:hover {
+    background: rgba(216, 177, 91, 0.75);
+}
+
+.faciais-social-list img {
+    width: 18px;
+    height: 18px;
+    object-fit: contain;
+}
+
+.faciais-social-col h3 {
+    margin: 8px 0 8px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.faciais-social-col p {
+    margin: 0;
+    color: #d7e1ee;
+    font-size: 15px;
+    line-height: 1.55;
+}
+
+.faciais-central-final-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.faciais-central-final-footer p {
+    margin: 0;
+    color: #d8e2ef;
+    font-size: 14px;
+}
+
+/* ============================
+      RESPONSIVIDADE
+============================ */
+@media (max-width: 1024px) {
+    .faciais-central-container {
+        margin-top: 210px;
+    }
+
+    .faciais-tratamento,
+    .faciais-central .faciais-tratamento:nth-of-type(even) {
+        grid-template-columns: 1fr;
+    }
+
+    .faciais-central .faciais-tratamento:nth-of-type(even) .faciais-img-tratamento,
+    .faciais-central .faciais-tratamento:nth-of-type(even) .faciais-info-tratamento {
+        order: initial;
+    }
+
+    .faciais-center-footer {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+}
+
+@media (max-width: 768px) {
+    .faciais-central > h1 {
+        font-size: 34px;
+    }
+
+    .faciais-img-tratamento {
+        height: 220px;
+    }
+
+    .faciais-info-tratamento h2 {
+        font-size: 22px;
+    }
+
+    .faciais-info-tratamento p {
+        font-size: 15px;
+    }
+
+    .faciais-numero-tratamento {
+        font-size: 34px;
+    }
+
+    .faciais-brand h2,
+    .faciais-contact-col h2,
+    .faciais-social-col h2 {
+        font-size: 22px;
+    }
+}
