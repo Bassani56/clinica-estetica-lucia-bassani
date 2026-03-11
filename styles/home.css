@@ -1095,12 +1095,22 @@
         min-height: 300px;
     }
 
+
+    .massoterapeuta-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .massoterapeuta-content h2 {
         font-size: 30px;
     }
 
     .massoterapeuta-content p {
         font-size: 16px;
+    }
+
+    .massoterapeuta-cta{
+        width: 80%;
     }
 
     .massoterapeuta-highlights {
