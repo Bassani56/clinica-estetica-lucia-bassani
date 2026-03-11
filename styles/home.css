@@ -1105,6 +1105,10 @@
         font-size: 30px;
     }
 
+    .massoterapeuta-kicker{
+        align-self: flex-start;
+    }
+
     .massoterapeuta-content p {
         font-size: 16px;
     }
