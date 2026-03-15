@@ -353,6 +353,35 @@ box-shadow:0 14px 40px rgba(0,0,0,0.35);
     margin-bottom: 20px;
 }
 
+.nossos-servicos a{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 14px 32px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    text-decoration: none;
+
+    color: #8B7355;
+    border: 2px solid #D4AF37;
+
+    border-radius: 40px;
+
+    background: transparent;
+
+    transition: all 0.3s ease;
+
+    letter-spacing: 0.5px;
+}
+
+.nossos-servicos a:hover{
+    background: linear-gradient(135deg, #D4AF37, #8B7355);
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
 /* ============================
       CONTATO
 ============================ */
@@ -745,7 +774,9 @@ box-shadow:0 14px 40px rgba(0,0,0,0.35);
 
 .carousel::scroll-button(right),
 .carousel::scroll-button(left){
-    content: '→';
+    content: "\f105";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
     border: none;
     background-color: #583f33;
     font-size: 30px;
@@ -764,7 +795,10 @@ box-shadow:0 14px 40px rgba(0,0,0,0.35);
 }
 
 .carousel::scroll-button(left){
-    content: '←';
+     content: "\f104";
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
+
     position-area: left center;
     translate: 50%;
 }
