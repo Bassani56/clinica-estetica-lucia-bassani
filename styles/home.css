@@ -167,7 +167,7 @@ box-shadow:0 14px 40px rgba(0,0,0,0.35);
     display: flex;
     justify-content: center;
     padding: 120px 5%;
-    background-color: #9b581e;
+    /* background-color: #9b581e; */
     align-items: center;
 }
 
@@ -852,6 +852,7 @@ box-shadow:0 14px 40px rgba(0,0,0,0.35);
     width: 100%;
     padding: 96px 5%;
     background: #FAF8F5;
+    /* background-color: #f5f2ec; */
     display: flex;
     justify-content: center;
 }
