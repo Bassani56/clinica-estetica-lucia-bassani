@@ -4,7 +4,8 @@
 ============================ */
 .faciais-footer {
     /* background: linear-gradient(180deg, #50391b 0%, #0b2144 100%); */
-    background: linear-gradient(135deg, #2F261E 0%, #453526 100%);
+    /* background: linear-gradient(135deg, #2F261E 0%, #453526 100%); */
+    background: linear-gradient(90deg, #4e4036, #3f332b);
     color: #f1f5f9;
     padding: 56px 5% 34px;
 }
