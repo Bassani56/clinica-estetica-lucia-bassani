@@ -19,6 +19,10 @@
     <meta name="twitter:description" content="Fale com a clínica e agende sua avaliação.">
     <meta name="twitter:image" content="https://www.luciabassani.com.br/images/logo/logo.png">
 
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
     <link rel="stylesheet" href="/styles/footer.css">
     <link rel="stylesheet" href="/styles/header.css">
     <link rel="stylesheet" href="/styles/contato.css">
@@ -122,13 +126,8 @@
 
                             <button type="submit">Enviar Mensagem</button>
                         </form> -->
-                        <form class="contato-form" action="https://formsubmit.co/danielfabricio330@gmail.com" method="POST">
-
-                            <input type="hidden" name="_subject" value="Nova mensagem do site Lucia Bassani">
-                            <input type="hidden" name="_captcha" value="false">
-                            <input type="hidden" name="_next" value="/pages/obrigado.html">
-
-                            <label for="contato-nome">Nome Completo *</label>
+                        <form class="contato-form" id="contact_form" method="post">
+                            <label for="contato-nome">Nome *</label>
                             <input id="contato-nome" name="nome" type="text" required>
 
                             <label for="contato-email">E-mail *</label>
@@ -140,7 +139,7 @@
                             <label for="contato-mensagem">Mensagem *</label>
                             <textarea id="contato-mensagem" name="mensagem" required></textarea>
 
-                            <button type="submit">Enviar Mensagem</button>
+                            <button type="submit" id="submit_button">Enviar Mensagem</button>
 
                         </form>
                     </div>
@@ -188,6 +187,10 @@
             </div>
         </footer>
     </div>
+
+
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
     <script src="/scripts/header-menu.js"></script>
+    <script src="/scripts/script.js"></script>
 </body>
 </html>
