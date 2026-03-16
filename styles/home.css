@@ -185,8 +185,8 @@ box-shadow:0 14px 40px rgba(0,0,0,0.35);
 
 .introducao-image {
     width: 100%;
-    min-height: 460px;
-    max-height: 620px;
+    min-height: 420px;
+    max-height: 600px;
     object-fit: cover;
     display: block;
     border-radius: 20px;
@@ -1210,7 +1210,7 @@ box-shadow:0 14px 40px rgba(0,0,0,0.35);
     }
 
     .introducao-image {
-        min-height: 390px;
+        min-height: 370px;
     }
 }
 
@@ -1320,7 +1320,7 @@ box-shadow:0 14px 40px rgba(0,0,0,0.35);
     .introducao > img,
     .servicos > img {
         width: 100%;
-        max-height: 420px;
+        max-height: 520px;
         object-fit: cover;
         display: block;
     }
@@ -1364,6 +1364,10 @@ box-shadow:0 14px 40px rgba(0,0,0,0.35);
 
     .localizacao-mapa iframe {
         height: 360px;
+    }
+
+    .introducao-image {
+        max-height: 200px;
     }
 }
 
@@ -1507,6 +1511,8 @@ box-shadow:0 14px 40px rgba(0,0,0,0.35);
     .localizacao-mapa iframe {
         height: 300px;
     }
+
+    
 }
 
 @media (max-width: 480px) {
@@ -1530,5 +1536,10 @@ box-shadow:0 14px 40px rgba(0,0,0,0.35);
 
     .hero-cta-whatsapp {
         font-size: 19px;
+    }
+
+    .introducao-image {
+        min-height: 250px;
+        
     }
 }
