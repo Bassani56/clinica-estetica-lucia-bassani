@@ -180,6 +180,7 @@ box-shadow:0 14px 40px rgba(0,0,0,0.35);
     align-items: center;
     /* align-items: center; */
     /* background-color: #D4AF37; */
+    object-fit: contain;
 }
 
 .introducao-image {
@@ -191,6 +192,7 @@ box-shadow:0 14px 40px rgba(0,0,0,0.35);
     border-radius: 20px;
     box-shadow: 0 20px 60px rgba(0, 0, 0, 0.12);
     background-color: var(--brown-dark);
+    object-position: 27% center;
 }
 
 .text-center {
