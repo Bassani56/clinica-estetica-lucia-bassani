@@ -1215,8 +1215,7 @@ box-shadow:0 14px 40px rgba(0,0,0,0.35);
 }
 
 @media (max-width: 1024px) {
-    .body_container,
-    .container-imagem {
+    .body_container{
         background-attachment: scroll;
     }
 
@@ -1437,6 +1436,9 @@ box-shadow:0 14px 40px rgba(0,0,0,0.35);
 
     .container-imagem {
         height: 280px;
+        background-size: 100% 280px;
+        background-position: center;
+        /* background-repeat: no-repeat; */
     }
 
     .message-form,
