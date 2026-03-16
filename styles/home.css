@@ -557,7 +557,7 @@ box-shadow:0 14px 40px rgba(0,0,0,0.35);
 .container-massoterapeuta{
     background: #FAF8F5;
     width: 100%;
-    /* padding: 96px 5%; */
+    padding: 96px 5%;
     display: flex;
     /* flex-direction: ce; */
     justify-content: center;
