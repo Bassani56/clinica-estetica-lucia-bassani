@@ -1,5 +1,5 @@
 emailjs.init({
-        publicKey: "6BcB2xPjeFCppbXO-",
+        publicKey: "FfVcYmJ4rCUd_2-tt",
       });
 
 
@@ -13,8 +13,8 @@ document.getElementById("contact_form").addEventListener("submit", function(even
         mensagem: document.getElementById("contato-mensagem").value
     }
 
-    const serviceID = "service_hvrtk6v"
-    const templateID = "template_gepqers"
+    const serviceID = "service_a35jhfn"
+    const templateID = "template_ulxacda"
     const submitButton = document.getElementById('submit_button')
 
     submitButton.textContent = "Enviando..."
