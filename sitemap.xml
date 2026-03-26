@@ -1,39 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
     <url>
-        <loc>https://www.luciabassani.com.br/</loc>
+        <loc>https://www.luciabassani.com.br/pages/home.html</loc>
         <lastmod>2026-03-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
     </url>
-
     <url>
-        <loc>https://www.luciabassani.com.br/faciais.html</loc>
+        <loc>https://www.luciabassani.com.br/pages/faciais.html</loc>
         <lastmod>2026-03-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
-
     <url>
-        <loc>https://www.luciabassani.com.br/corporais.html</loc>
+        <loc>https://www.luciabassani.com.br/pages/corporais.html</loc>
         <lastmod>2026-03-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.9</priority>
     </url>
-
     <url>
-        <loc>https://www.luciabassani.com.br/depilacao.html</loc>
+        <loc>https://www.luciabassani.com.br/pages/depilacao.html</loc>
         <lastmod>2026-03-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
-
     <url>
-        <loc>https://www.luciabassani.com.br/contato.html</loc>
+        <loc>https://www.luciabassani.com.br/pages/contato.html</loc>
         <lastmod>2026-03-09</lastmod>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
     </url>
-
 </urlset>
